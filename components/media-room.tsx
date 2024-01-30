@@ -56,8 +56,8 @@ export const MediaRoom = ({
       serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       token={token}
       connect={true}
-      video={video}
-      audio={audio}
+      video={true}
+      audio={true}
     >
       <VideoConference />
     </LiveKitRoom>
